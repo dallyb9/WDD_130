@@ -8,7 +8,7 @@ Fonts are separated by a | */
   --primary-color: #5BC0Be   ;
   --secondary-color: #F3FFb6 ;
   --accent1-color: #91E5F6;
-  --accent2-color: white;
+  --accent2-color: rgba(218, 138, 0, 0.657);
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Verdana";
