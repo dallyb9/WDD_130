@@ -3,6 +3,7 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #5BC0Be   ;
@@ -30,10 +31,11 @@ Fonts are separated by a | */
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   max-width: 960px;
   margin: 0 auto;
   padding: 4em;
-  font-size: 18px;
+  font-size: 22px;
   text-align: center;
 }
 img {
