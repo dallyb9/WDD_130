@@ -1,5 +1,8 @@
-body {background-color: aquamarine;}
+body {background-color: aliceblue;}
 p{font-size: 300%}
 
 .small_paragraph{font-style: italic;}
 small{text-align: center;}
+.img{
+    max-width: 400px;
+}

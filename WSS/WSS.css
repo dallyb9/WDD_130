@@ -1,0 +1,18 @@
+body {background-color: rgb(200, 184, 155, 255);}
+
+Header{font-size: 700%; text-align: center; font: italic}
+p{font-size: 150%;}
+title{font-size: 500%;}
+img{border-radius: 50px}
+h1{text-align: left;}
+h3{text-align: center;}
+p {text-align: center;}
+
+.center{image-rendering: round;}
+
+.center {display: block;
+     margin-left: auto;
+      margin-right: auto;
+       width: 30%}
+/* footer{font-size: 100%} */
+
