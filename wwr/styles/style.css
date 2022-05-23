@@ -102,6 +102,9 @@ h2{
     margin:0;
    
 }
+.left{
+    text-align: left;
+}
 .msg p{
     color:black;
     padding-bottom: 15px;
