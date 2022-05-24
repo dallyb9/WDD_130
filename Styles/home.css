@@ -6,3 +6,7 @@ small{text-align: center;}
 .img{
     max-width: 400px;
 }
+.highlight{
+    background-color: rgb(254, 254, 67);
+    max-width: fit-content;
+}

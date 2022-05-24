@@ -1,6 +1,24 @@
-body {background-color: rgb(200, 184, 155, 255);}
+body {background-color: rgb(204, 185, 143);}
 
-Header{font-size: 700%; text-align: center; font: italic}
+header{font-size: 700%;
+     text-align: center; 
+     font: italic;
+     background-color: black;
+     color: rgb(204,185,143);
+     text-align: center;
+     height: 300px ;
+     line-height: 150px;
+}
+.header{
+     text-align: center;
+}
+.head{
+    margin:0 auto;
+    max-width: 900px;
+}
+.secondary_color{
+     color:rgb(231,106,50)
+}
 p{font-size: 150%;}
 title{font-size: 500%;}
 img{border-radius: 50px}
@@ -16,3 +34,16 @@ p {text-align: center;}
        width: 30%}
 /* footer{font-size: 100%} */
 
+.logo{
+     max-width: 80px;
+     background-color: white;
+}
+.header_img{
+     background-color: black;
+     font-size:300px ;
+}
+.head_img{
+     
+    
+     
+}
