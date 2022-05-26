@@ -1,0 +1,37 @@
+.grid{
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    background-color: rgb(185,184,185);
+    border: black, 10%;
+}
+.white{
+    background-color: white;
+    
+}
+.img{
+  max-width: 50vw;
+  grid-column: 1/6;
+  grid-row: 1/6;
+
+}
+
+.main_txt{
+    grid-column-start: 1;
+    grid-column-end:  15;
+    grid-row-start: 1;
+    grid-row-end: 9;
+    font-size: 15.6vw;
+    letter-spacing: 8px;
+
+}
+.sub_txt{
+grid-row-start: 6;
+grid-row-end: 10;
+grid-column-start:7 ;
+grid-column-end: 10;
+color:rgb(157,39,31);
+font-size:10vw;
+letter-spacing: 10px;
+font-style: ;
+}

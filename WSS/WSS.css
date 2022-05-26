@@ -43,7 +43,18 @@ p {text-align: center;}
      font-size:300px ;
 }
 .head_img{
-     
-    
-     
 }
+
+footer{
+     background-color:rgb(231,106,50) ;
+     color: white;
+}
+.white{
+     color: white;
+     text-decoration: ;
+}
+.white:hover{
+background-color: black;
+color: rgb(204,185,143);
+}
+.contact{}

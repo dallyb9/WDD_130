@@ -8,7 +8,7 @@
     display:block;
     background-color: aquamarine;
     grid-row: 1;
-    grid-column: 1/4 
+    grid-column: 1/4; 
 
 }
 .side_bar{
