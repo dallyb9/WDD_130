@@ -1,0 +1,15 @@
+.grid{
+    background-color: burlywood;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+
+}
+.green{
+    background-color: green;
+    color: green;
+}
+.first{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
