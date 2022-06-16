@@ -234,6 +234,7 @@ footer a:hover{
     nav a {
         display: block;
         padding: 15px;
+        color:black;
     }
     #hero {
         margin-top: 0;
@@ -243,6 +244,9 @@ footer a:hover{
     }
     #hero-msg h4 {
         display: none;
+    }
+    .book{
+        color:black;
     }
     .home-title {
         font-size: 25px;
