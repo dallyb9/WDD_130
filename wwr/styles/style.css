@@ -194,7 +194,7 @@ h2{
 footer{
     background-color: rgb(254, 164, 103);
     color:black;
-    text-decoration: underline;
+    text-decoration: none;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -203,10 +203,11 @@ footer{
 }
 footer .social img{
     padding-top: 15px;
+    padding: 15px;
 }
 footer h3{
     color:black;
-    text-decoration: underline;
+    text-decoration: none;
 }
 footer a{
     color:black;
