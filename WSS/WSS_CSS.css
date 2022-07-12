@@ -114,6 +114,7 @@ nav  {
   list-style-type: none;
   display: flex;
   border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 
 }
 nav a {
@@ -121,6 +122,7 @@ nav a {
   min-width: 120px;
   text-decoration: none;
   padding: 2%;
+  border-radius: 20px;
 
 }
 nav img{
@@ -134,6 +136,7 @@ nav a:link, nav a:visited {
 nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
+  border-bottom-left-radius: 20px;
 }
 
 .sitemap {

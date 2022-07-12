@@ -26,9 +26,7 @@ header{
 .header{
      list-style-type: none;
      display: flex;
-     border-bottom-left-radius: 20px;
-     border-bottom-right-radius: 20px;
-    
+     
 }
 .nav {
      padding-top: 102px;
