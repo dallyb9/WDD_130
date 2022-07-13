@@ -102,44 +102,44 @@ color: rgb(204,185,143); */
 
 
 /* COMMISSIONS PAGE SPECIFIC CSS */
+
+
 .price1{
-     font-size: 5vw ;
-grid-column: 1/5;
+     font-size: 3vw ;
+grid-column: 1/3;
 text-align: center;
 
 }
 .price1_msg1{
-     font-size: 2.3vw;
-grid-column: 1/7;
+     font-size: 1.8vw;
+grid-column: 1/6;
 grid-row: 4/5;
 
 background-color:rgb(52,122,141) ;
-padding-bottom: -200px;
+
 margin: 0 auto;
-margin-bottom: -200px;
+
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;
-
+border-radius: 20px;
 }
 
 .price1_msg2{
-     font-size: 2.3vw;
+     font-size: 1.8vw;
 margin: 0 auto;
+padding-top: 0;
+
+margin-top: -160px;
 color: white;
-padding-top: 0px;
 grid-column: 1/6;
-background-color:rgb(52,122,141) ;
+
 border-top-right-radius: 10px;
 border-bottom-left-radius:10px ;
 border-bottom-right-radius:10px ;
 
 }
-.hidden{
-     
-
-}
 .price1_img{
-grid-column: 6/10 ;
+grid-column: 6/11 ;
 grid-row: 4 ;
 width: 100%;
 margin-left: 20px;
@@ -149,15 +149,17 @@ border: 2px solid black;
 }
 
 .price2{
-     font-size: 4.8vw;
-grid-column: 1/6;
+     font-size: 3vw;
+grid-column: 1/5;
+
 text-align: center;
 min-width: 248px;
+margin-top: -60px;
 
 }
 .price2_msg{
      color:white;
-     font-size: 3vw;
+     font-size: 1.8vw;
      grid-column: 1/11;
      grid-row: 7;
      background-color:rgb(52,122,141) ;
@@ -170,112 +172,112 @@ min-width: 248px;
      
 }
 .price3{
-grid-column: 1/7;
+grid-column: 1/5;
 text-align: center;
-font-size: 4.8vw;
+font-size: 3vw;
 
      
 }
 .price3_msg{
-     font-size: 3vw;
-     grid-column: 1/11;
+     font-size: 1.8vw;
+     grid-column: 1/4;
      grid-row: 9;
      background-color:rgb(52,122,141) ;
-     
-     
      margin: 0 auto;
      border-radius: 20px;
      
 }
 .price3_img{
-     grid-column: 6/11 ;
-     grid-row: 10;
+     grid-column: 7/10 ;
+     grid-row: 9;
      width: 100%;
     
-     margin:40px;
-     margin-right: 0px;
-     margin-left: 10px;
+     
+     margin-right: 10px;
+     margin-left: 35px;
+     margin-top: 30px;
      border: 2px solid black;
   
 }
 .price3_img2{
-     grid-column: 1/6 ;
-     
+     grid-column: 4/7;
      width: 100%;
-     margin: 20px;
-     margin-bottom: 40px;
-     margin-left: -10px;
+     margin-top:20px;
+     margin-left: 10px;
      border: 2px solid black;
    
     
 }
 .price4{
-grid-column: 1/9;
+grid-column: 1/6;
 text-align: center;
-font-size: 4.8vw;
+font-size: 3vw;
 
 }
 .price4_msg{
-     font-size: 3vw;
-     grid-column: 1/11;
-     grid-row: 12;
+     font-size: 1.8vw;
+     grid-column: 8/11;
      background-color:rgb(52,122,141) ;
      margin: 0 auto;
      border-radius: 20px;
+     margin-top: -40px;
 }
 .price4_img{
-     grid-column: 1/6 ;
+     grid-column: 1/4 ;
      width: 100%;
     
-     margin-top: 30px;
+     margin-top: 0px;
      margin-right: 0px;
-     margin-left: -10px;
+    margin-bottom: 20px;
      border: 2px solid black;
 }
 .price4_img2{
-     grid-column: 6/11 ;
+     grid-column: 4/7 ;
      width: 100%;
-    margin-top: 30px;
+    margin-top: 0px;
      margin-bottom: 40px;
-     margin-left: 10px;
+     margin-left: 30px;
      border: 2px solid black;
 }
 .price5{
-     grid-column: 1/8;
+     grid-column: 1/5;
      text-align: center;
-     font-size: 4.8vw;
+     font-size: 2.5vw;
 }
 .price5_img{
-     grid-column: 1/6 ;
+     grid-column: 3/6 ;
      width: 100%;
     
-     margin-top: 30px;
+     margin-top: 0px;
      margin-right: 0px;
      margin-left: -10px;
      border: 2px solid black;
 }
 .price5_img2{
-     grid-column: 6/11 ;
+     grid-column: 6/9 ;
      width: 100%;
-    margin-top: 30px;
-     margin-bottom: 40px;
+    margin-top: 0px;
+     margin-bottom: 20px;
      margin-left: 10px;
      border: 2px solid black;
 }
 .price5_msg{
 grid-column: 1/11;
-font-size: 3vw;
+grid-row: 13;
+font-size: 1.8vw;
 background-color:rgb(52,122,141) ;
 border-radius: 20px;
+margin-top: 0;
 
 }
 .price5_msg2{
 grid-column: 1/11;
-font-size: 3vw;
+font-size: 1.8vw;
 background-color:rgb(52,122,141) ;
 border-radius: 20px;
-margin-top: -10px;
+margin-top: 15px;
 }
+
 @media screen and (max-width: 700px) {
 .price1{
      font-size: 5vw ;
@@ -283,7 +285,10 @@ grid-column: 1/5;
 text-align: center;
 
 }
+
+
 .price1_msg1{
+
      font-size: 3vw;
 grid-column: 1/4;
 grid-row: 4;
@@ -322,8 +327,10 @@ border: 2px solid black;
 .price2{
      font-size: 4.8vw;
 grid-column: 1/6;
+grid-row: 6;
 text-align: center;
 min-width: 248px;
+margin:auto
 
 }
 .price2_msg{
@@ -344,6 +351,7 @@ min-width: 248px;
 grid-column: 1/7;
 text-align: center;
 font-size: 4.8vw;
+margin-top: 30px ;
 
      
 }
@@ -377,13 +385,12 @@ font-size: 4.8vw;
      margin-bottom: 40px;
      margin-left: -10px;
      border: 2px solid black;
-   
-    
 }
 .price4{
 grid-column: 1/9;
 text-align: center;
 font-size: 4.8vw;
+margin-top: 10px;
 
 }
 .price4_msg{
@@ -393,6 +400,7 @@ font-size: 4.8vw;
      background-color:rgb(52,122,141) ;
      margin: 0 auto;
      border-radius: 20px;
+     
 }
 .price4_img{
      grid-column: 1/6 ;
@@ -407,7 +415,7 @@ font-size: 4.8vw;
      grid-column: 6/11 ;
      width: 100%;
     margin-top: 30px;
-     margin-bottom: 40px;
+     margin-bottom: 20px;
      margin-left: 10px;
      border: 2px solid black;
 }
@@ -415,12 +423,14 @@ font-size: 4.8vw;
      grid-column: 1/8;
      text-align: center;
      font-size: 4.8vw;
+     margin-top: 20px;
+
 }
 .price5_img{
      grid-column: 1/6 ;
      width: 100%;
     
-     margin-top: 30px;
+     margin-top: 0px;
      margin-right: 0px;
      margin-left: -10px;
      border: 2px solid black;
@@ -428,13 +438,14 @@ font-size: 4.8vw;
 .price5_img2{
      grid-column: 6/11 ;
      width: 100%;
-    margin-top: 30px;
+    margin-top: 0px;
      margin-bottom: 40px;
      margin-left: 10px;
      border: 2px solid black;
 }
 .price5_msg{
 grid-column: 1/11;
+grid-row: 15;
 font-size: 3vw;
 background-color:rgb(52,122,141) ;
 border-radius: 20px;
@@ -442,6 +453,7 @@ border-radius: 20px;
 }
 .price5_msg2{
 grid-column: 1/11;
+grid-row: 16;
 font-size: 3vw;
 background-color:rgb(52,122,141) ;
 border-radius: 20px;
@@ -456,6 +468,7 @@ margin-top: -10px;
      body{
           display:inline-block;
      }
+     
      #hero, .home-grid {
          display: block;
          height: auto;
@@ -508,7 +521,3 @@ margin-top: -10px;
      footer {
          margin-top: 25px;
      }
-}
-
-
-@media screen and (max-width: 700px) {
