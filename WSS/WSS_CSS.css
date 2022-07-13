@@ -109,12 +109,14 @@ nav {
   text-align: center;
   font-size: 1.2em;
   min-width: 574px;
+  grid-column: 1/11 ;
 }
 nav  {
   list-style-type: none;
   display: flex;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  grid-column: 1/11 ;
 
 }
 nav a {
@@ -123,12 +125,14 @@ nav a {
   text-decoration: none;
   padding: 2%;
   border-radius: 20px;
+  grid-column: 1/11 ;
 
 }
 nav img{
   width: 100px;
   margin-top: -10;
   border-bottom-left-radius: 20px;
+  grid-column: 1/11 ;
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
