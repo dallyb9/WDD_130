@@ -57,7 +57,6 @@ h1{text-align: left;}
 h3{text-align: center;}
 p {text-align: center;}
 
-.center{image-rendering: round;}
 
 .center {display: block;
      margin-left: auto;
@@ -520,4 +519,51 @@ margin-top: -10px;
      }
      footer {
          margin-top: 25px;
+     }
+     
+
+     /* ABOUT US SPECIFIC CSS */
+     .about_us_grid{
+     display: grid;
+     grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+}
+     .family_img{
+          grid-column: 1/11;
+          width:100%;
+          max-width: 700px;
+          min-width: 573px;
+          margin-top: 20px;
+     }
+     .family_story{
+          grid-column: 1/11;
+     }
+     .family_intro{
+
+     }
+     .JT{
+     
+     }
+     .JT_img{
+     
+     }
+     .JT_bio{
+     
+     }
+     .Dallin{
+     
+     }
+     .Dallin_img{
+     
+     }
+     .Dallin_bio{
+     
+     }
+     .Reed{
+     
+     }
+     .Reed_img{
+     
+     }
+     .Reed_bio{
+         
      }
