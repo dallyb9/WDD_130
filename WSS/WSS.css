@@ -77,12 +77,22 @@ footer{
      grid-template-rows: auto;
      background-color:rgb(231,106,50) ;
      color: white;
+     min-width: 553px;
 }
 
 .footer_header{
+grid-column: 2/4;
+font-size: 3vw;
+letter-spacing: .5vw;
+}
+.insta_footer{
+grid-column: 2/4;
+grid-row: 2;
+font-size: 2vw;
+}
+.insta_img_footer{
 
 }
-
 
 
 
@@ -129,6 +139,7 @@ border-radius: 20px;
      font-size: 1.8vw;
 margin: 0 auto;
 padding-top: 0;
+padding-bottom: 30px;
 
 margin-top: -160px;
 color: white;
@@ -302,6 +313,7 @@ min-width: 120px;
 .price1_msg2{
      font-size: 3vw;
      padding-top: 10px;
+     padding-bottom: 30px;
      margin-top: -10px;
 margin: 0 auto;
 color: white;
@@ -329,7 +341,9 @@ grid-column: 1/6;
 grid-row: 6;
 text-align: center;
 min-width: 248px;
-margin:auto
+margin:auto;
+margin-top: 30px;
+margin-bottom: 20px;
 
 }
 .price2_msg{
