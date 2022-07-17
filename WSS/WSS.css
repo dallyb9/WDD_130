@@ -78,6 +78,16 @@ footer{
      background-color:rgb(231,106,50) ;
      color: white;
      min-width: 553px;
+     margin: 0 auto;
+     margin-top: 30px;
+     grid-column: 1/11;
+     grid-row: 30;
+     border-radius: 20px;
+     width: 100%;
+     /* font-size: 1vw; */
+     padding: 0%;
+     max-height: fit-content;
+
 }
 
 .footer_header{
@@ -89,12 +99,22 @@ letter-spacing: .5vw;
 grid-column: 2/4;
 grid-row: 2;
 font-size: 2vw;
+margin: 0 auto;
 }
-.insta_img_footer{
-
+.facebook_footer{
+     grid-column:2/4;
+     font-size: 2vw;
+     margin: 0 auto;
+     padding: 0px;
 }
+/* .insta_img_footer{
 
-
+} */
+.phone_number{
+     font-size: 2vw;
+     grid-column: 2/4;
+     margin: 0 auto;
+}
 
 
 
@@ -905,16 +925,7 @@ margin-bottom: 30px;
      }
 }
 
-/* FOOTER CSS */
-footer{
-     grid-column: 1/11;
-     border-radius: 20px;
-     width: 100%;
-     font-size: 1vw;
-     margin: 0 auto;
-     padding: 0%;
-     max-height: fit-content;
-}
+
 
 /* FOR PHONE VIEW */
 @media only screen and (max-width: 600px){
