@@ -108,7 +108,7 @@ nav {
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
-  min-width: 574px;
+ 
   grid-column: 1/11 ;
 }
 nav  {
@@ -117,6 +117,7 @@ nav  {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   grid-column: 1/11 ;
+  min-width: 554px;
 
 }
 nav a {
