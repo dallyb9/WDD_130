@@ -34,9 +34,9 @@ Fonts are separated by a | */
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: 0 auto;
-  padding: 4em;
+  padding: 5vw;
   font-size: 18px;
   text-align: center;
 }
@@ -117,7 +117,7 @@ nav  {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   grid-column: 1/11 ;
-  min-width: 554px;
+  /* min-width: 554px; */
 
 }
 nav a {
