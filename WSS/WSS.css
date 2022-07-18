@@ -10,7 +10,6 @@ header{
 
      font-size: 7vw;
      letter-spacing: 1.5vw;
-     font: italic;
      background-color: black;
      color: rgb(204,185,143);
      text-align: center;
@@ -29,14 +28,6 @@ header{
 .black_background{
      background-color:black;
      
-}
-.header{
-     /* list-style-type: none;
-     grid-column: 1/11 ; */
-     
-}
-.myheader{
-     grid-column: 1/11 ;
 }
 .nav {
      padding-top: 102px;
@@ -1105,7 +1096,6 @@ font-size: 3vw;
 
           font-size: 7vw;
           letter-spacing: 2vw;
-          font: italic;
           background-color: black;
           color: rgb(204,185,143);
           text-align: center;
