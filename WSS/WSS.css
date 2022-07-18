@@ -554,7 +554,7 @@ margin-top: -10px;
      }
      nav img{
           display: block;
-          padding-left: 34vw;
+          padding-left: 33vw;
           margin:0 auto;
           border-bottom-left-radius: 20px;
           grid-column: 1/11 ;
@@ -566,8 +566,8 @@ margin-top: -10px;
          border-bottom-left-radius: 20px;
          grid-column: 1/11 ;
      }
-     header{
-
+     nav{
+          text-align: center;
      }
   
 }
@@ -1129,9 +1129,13 @@ font-size: 3vw;
           border-bottom-left-radius: 20px;
           border-bottom-right-radius: 20px;
           grid-column: 1/11 ;
+         
           /* min-width: 554px; */
         
         }
+        nav{
+          text-align: center;
+     }
         nav a {
           /* padding:1em; */
           /* min-width: 120px; */
@@ -1142,10 +1146,11 @@ font-size: 3vw;
         
         }
         nav img{
-          width: 18vw;
+          width: 17vw;
           margin-top: -10px;
           border-bottom-left-radius: 20px;
           grid-column: 1/11 ;
+     
         }
         nav a:link, nav a:visited {
           color: var(--nav-link-color);
