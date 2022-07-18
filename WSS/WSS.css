@@ -62,8 +62,9 @@ p {text-align: center;}
 }
 .header_img{
      background-color: black;
-     width: 10vw ;
-     border-bottom-left-radius: 20px;
+     width: 13vw ;
+   
+     /* border-bottom-left-radius: 20px; */
 }
 footer{
      display: grid ;
@@ -968,6 +969,10 @@ margin-bottom: 30px;
           grid-column: 1/11;   
           font-size: 2.3vw;
      }
+     .header_img{
+          margin-left: 1.5vw;
+     }
+    
 }
 
 /* FOR HOME PAGE */
