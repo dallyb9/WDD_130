@@ -72,7 +72,7 @@ p {text-align: center;}
      border-bottom-left-radius: 20px;
 }
 footer{
-     display: grid;
+     display: grid ;
      grid-template-columns: 1fr 1fr 1fr 1fr;
      grid-template-rows: auto;
      background-color:rgb(231,106,50) ;
@@ -92,20 +92,25 @@ footer{
 
 .footer_header{
 grid-column: 2/4;
+grid-row: 1;
 font-size: 3vw;
 letter-spacing: .5vw;
+height: fit-content;
 }
 .insta_footer{
 grid-column: 2/4;
 grid-row: 2;
+grid-row: 2;
 font-size: 2vw;
 margin: 0 auto;
+padding:5px;
 }
 .facebook_footer{
      grid-column:2/4;
+     grid-row: 3;
      font-size: 2vw;
      margin: 0 auto;
-     padding: 0px;
+     padding: 5px;
 }
 /* .insta_img_footer{
 
@@ -113,7 +118,43 @@ margin: 0 auto;
 .phone_number{
      font-size: 2vw;
      grid-column: 2/4;
+     grid-row: 4;
      margin: 0 auto;
+     padding: 5px;
+}
+.email_footer{
+     font-size: 2vw;
+     grid-column: 2/4;
+     grid-row: 5;
+     margin: 0 auto;
+     padding: 5px;
+     padding-bottom: 5px;
+}
+.site_plan{
+     font-size: 2vw;
+     grid-column: 2/4;
+     grid-row: 6;
+     margin: 0 auto;
+     padding: 5px;
+     padding-bottom: 10px;   
+}
+.tree{
+     
+width: 100%;
+margin: 0 auto;
+padding: 10px;
+grid-row: 10;
+grid-column: 4/5;
+margin-top: -25vw;
+margin-left: -3vw;
+}
+.flower{
+width: 100%;
+margin: 0 auto;
+padding: 10px;
+grid-row: 10;
+grid-column: 1/2;
+margin-top: -25vw;
 }
 
 
@@ -923,6 +964,65 @@ margin-bottom: 30px;
           grid-column: 1/11;   
           font-size: 2.3vw;
      }
+}
+
+/* FOR HOME PAGE */
+.home_img{
+width: 100%;
+grid-column: 1/11;
+}
+.introduction{
+grid-column:  1/11;
+}
+.fix{
+     grid-column:  1/11;
+
+}
+.location{
+     grid-column:  1/11;
+
+}
+.statement{
+     grid-column:  1/11;
+
+}
+
+
+.hours_box{
+     grid-template-columns: auto;
+     grid-column:  3/11;
+     background-color: white;
+     border-radius: 20px;
+     width: 50vw;
+     height: fit-content;
+     text-align: center;
+
+}
+.hours_title{
+     font-size: 4vw;
+     margin: 0 auto;
+     padding: 10px;
+}
+.monday{
+     font-size: 3vw;
+     margin: 0 auto;
+     padding: 5px;
+}
+.saturday{
+     font-size: 3vw;
+     margin: 0 auto;
+     padding: 5px;
+}
+.saturday_modified{
+     font-size:2vw;
+     margin: 0 auto;
+     padding: 5px;
+     padding-bottom: 10px;
+}
+.sunday{
+     font-size: 3vw;
+     margin: 0 auto;
+     padding: 5px;
 }
 
 
