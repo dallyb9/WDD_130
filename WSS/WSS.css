@@ -187,9 +187,9 @@ background-color:rgb(52,122,141) ;
 margin: 0 auto;
 max-height: fit-content;
 
-border-top-left-radius: 20px;
-border-top-right-radius: 20px;
-border-radius: 20px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-radius: 10px;
 }
 
 .price1_msg2{
@@ -234,9 +234,9 @@ text-align: center;
      grid-row: 7;
      background-color:rgb(52,122,141) ;
      margin: 0 auto;
-     border-top-left-radius: 20px;
-     border-top-right-radius: 20px;
-     border-radius: 20px;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     border-radius: 10px;
 width: fit-content;
 }
 
@@ -253,7 +253,7 @@ font-size: 3vw;
      grid-row: 9;
      background-color:rgb(52,122,141) ;
      margin: 0 auto;
-     border-radius: 20px;
+     border-radius: 10px;
      
 }
 .price3_img{
@@ -364,8 +364,8 @@ grid-row: 4;
 background-color:rgb(52,122,141) ;
 padding-bottom: 0;
 margin: 0 auto;
-border-top-left-radius: 20px;
-border-top-right-radius: 20px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
 /* min-width: 120px; */
 }
 
@@ -376,7 +376,7 @@ border-top-right-radius: 20px;
      /* margin-top: -10px; */
 margin: 0 auto;
 color: white;
-margin-top: -25px;
+margin-top: -20px;
 grid-column: 1/11;
 background-color:rgb(52,122,141) ;
 border-top-right-radius: 10px;
@@ -414,9 +414,9 @@ width: 40vw;
      grid-row: 7;
      background-color:rgb(52,122,141) ;
      margin: 0 auto;
-     border-top-left-radius: 20px;
-     border-top-right-radius: 20px;
-     border-radius: 20px;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     border-radius: 10px;
 }
 
 .price3{
@@ -435,7 +435,7 @@ margin-top: 30px ;
      
      
      margin: 0 auto;
-     border-radius: 20px;
+     border-radius: 10px;
      
 }
 .price3_img{
@@ -471,7 +471,7 @@ margin-top: 10px;
      grid-row: 12;
      background-color:rgb(52,122,141) ;
      margin: 0 auto;
-     border-radius: 20px;
+     border-radius: 10px;
      
 }
 .price4_img{
@@ -520,7 +520,7 @@ grid-column: 1/11;
 grid-row: 15;
 font-size: 3vw;
 /* background-color:rgb(52,122,141) ; */
-border-radius: 20px;
+border-radius: 10px;
 
 }
 .price5_msg2{
@@ -528,7 +528,7 @@ grid-column: 1/11;
 grid-row: 16;
 font-size: 3vw;
 /* background-color:rgb(52,122,141) ; */
-border-radius: 20px;
+border-radius: 10px;
 margin-top: -10px;
 }
 
@@ -660,17 +660,8 @@ margin-top: -10px;
      
      font-size: 3vw;
      z-index: 2;
-     /* max-height: 52px; */
      width: 90%;
      height: fit-content;
-     /* max-width: 200px ; */
-
-     /* background-color: white;
-     border-radius: 20px;
-     text-align: center;
-     margin:0;
-     margin-top: 30px;
-     font-size: 3vw; */
      }
      .Dallin_img{
      grid-column: 4/7;
@@ -719,14 +710,6 @@ margin-top: -10px;
           /* max-height: 52px; */
           width: 90%;
           height: fit-content;
-          /* max-width: 200px ; */
-
-
-          /* background-color: white;
-          border-radius: 20px;
-          text-align: center;
-          font-size: 3vw;
-          margin:0; */
      }
      .Reed_img{
           grid-column: 8/11;
