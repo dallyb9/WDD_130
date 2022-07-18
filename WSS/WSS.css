@@ -29,6 +29,9 @@ header{
      background-color:black;
      
 }
+.myheader{
+     grid-column: 1/11 ;
+}
 .nav {
      padding-top: 102px;
      grid-column: 1/11;
@@ -103,9 +106,6 @@ padding:5px;
      margin: 0 auto;
      padding: 5px;
 }
-/* .insta_img_footer{
-
-} */
 .phone_number{
      font-size: 2vw;
      grid-column: 2/4;
